@@ -37,7 +37,6 @@ Activates mic and listens to user commands. Audio is converted to text
 via the Google Speech API and if the response matches a key phrase a request
 is made to an IFTTT event which turns on room lights
 '''
-
 def listen_to_commands():
 	r = sr.Recognizer()
 
